@@ -1,62 +1,59 @@
-# D&C - HERO BATTLE
+This project was bootstrapped with
+[Create React App](https://github.com/facebook/create-react-app).
 
-**Número da Lista**: 10<br>
-**Conteúdo da Disciplina**: Algoritmos Dividir para Conquistar<br>
+## Available Scripts
 
-## Alunos
-|Matrícula | Aluno |
-| -- | -- |
-| 15/0120371  |  Bruno Oliveira Dantas |
-| 17/0031438 |  Dâmaso Júnio Pereira Brasileo |
+In the project directory, you can run:
 
-## Sobre 
+### `yarn start`
 
-O projeto **Hero Battle** é uma aplicação do algoritmo `MergeSort`. Nele você escolhe 4 heróis e 4 inimigos que serão ordenados a partir do valor de força de cada inimigo (Esse valor é gerado aleatoriamente, o que deixa tudo mais desafiador). No final, há uma batalha entre cada heroi (do mais fraco ao mais forte) para decidir quem é o vencedor.
+Runs the app in the development mode.<br /> Open
+[http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Screenshots
+The page will reload if you make edits.<br /> You will also see any lint errors
+in the console.
 
-![](app/src/assets/DC_1.png)
+### `yarn test`
 
-![](app/src/assets/DC_2.png)
+Launches the test runner in the interactive watch mode.<br /> See the section
+about
+[running tests](https://facebook.github.io/create-react-app/docs/running-tests)
+for more information.
 
-![](app/src/assets/DC_3.png)
+### `yarn build`
 
-![](app/src/assets/DC_4.png)
+Builds the app for production to the `build` folder.<br /> It correctly bundles
+React in production mode and optimizes the build for the best performance.
 
-## Vídeo
+The build is minified and the filenames include the hashes.<br /> Your app is
+ready to be deployed!
 
+See the section about
+[deployment](https://facebook.github.io/create-react-app/docs/deployment) for
+more information.
 
-## Instalação 
+### `yarn eject`
 
-**Linguagem**: TypeScript<br>
-**Framework**: ReactJS com Chakra UI<br>
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-Para instalação do projeto, é necessário executar os seguintes comandos:
-```
-git clone https://github.com/projeto-de-algoritmos/DC_BatalhaHerois
+If you aren’t satisfied with the build tool and configuration choices, you can
+`eject` at any time. This command will remove the single build dependency from
+your project.
 
-cd DC_BatalhaHerois/app
+Instead, it will copy all the configuration files and the transitive
+dependencies (webpack, Babel, ESLint, etc) right into your project so you have
+full control over them. All of the commands except `eject` will still work, but
+they will point to the copied scripts so you can tweak them. At this point
+you’re on your own.
 
-yarn install
-```
+You don’t have to ever use `eject`. The curated feature set is suitable for
+small and middle deployments, and you shouldn’t feel obligated to use this
+feature. However we understand that this tool wouldn’t be useful if you couldn’t
+customize it when you are ready for it.
 
-## Uso 
+## Learn More
 
-Para execução do projeto é necessário, após a instalação:
-```
-cd DC_BatalhaHerois
-cd app
+You can learn more in the
+[Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-yarn start
-```
-
-## Outros 
-O comando `yarn` pode ser trocado por `npm`:
-```
-npm install
-
-npm start
-```
-
-É necessário ter o `NPM` ou `YARN` instalado.
-
+To learn React, check out the [React documentation](https://reactjs.org/).
