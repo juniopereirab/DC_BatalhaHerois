@@ -23,7 +23,7 @@ const Winner: React.FC = () => {
 
     setHero(orderedHero);
     setEnemy(orderedEnemy);
-  }, []);
+  }, [hero, enemy]);
 
   const compareHero = (index: number, h: number, e:number) => {
     if(hero[index].value < enemy[index].value){
